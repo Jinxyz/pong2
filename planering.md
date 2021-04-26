@@ -19,3 +19,4 @@ Nätverk
 Server öppnar upp sig för en connection och väntar tills en klient ansluter.
 
 Client letar efter en connection, behöver en port och en IP att ansluta till. 
+
