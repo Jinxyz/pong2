@@ -20,3 +20,9 @@ Server öppnar upp sig för en connection och väntar tills en klient ansluter.
 
 Client letar efter en connection, behöver en port och en IP att ansluta till. 
 
+
+Vad är viktigast? 
+Connect först
+Skicka koordinater mellan varandra
+Visa paddles som man kan styra
+Dela upp kort

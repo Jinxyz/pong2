@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263e786c-dd82-4260-90ac-956d436f408f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planering.md" beforeDir="false" afterPath="$PROJECT_DIR$/planering.md" afterDir="false" />
     </list>
@@ -28,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
@@ -72,9 +77,28 @@
       <option name="presentableId" value="Default" />
       <updated>1618914973944</updated>
     </task>
+    <task id="LOCAL−00001" summary="planering">
+      <created>1619427961481</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1619427961481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="planering" />
+    <option name="LAST_COMMIT_MESSAGE" value="planering" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1619427960936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619427960936" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1619427967705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619427967705" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1618916181265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
