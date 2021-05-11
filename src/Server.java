@@ -28,7 +28,7 @@ public class Server {
             in.close();
             out.close();
             socket.close();
-            // System.out.println("Closing down " + name);
+            System.out.println("Closing down");
         }
     }
 }
