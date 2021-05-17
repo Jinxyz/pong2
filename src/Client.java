@@ -20,6 +20,7 @@ public class Client {
             System.out.println("Client failed to connect");
             System.exit(0);
         }
+
         out.close();
         socket.close();
         System.out.println("Done!");
