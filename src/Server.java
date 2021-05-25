@@ -1,3 +1,4 @@
+import com.sun.corba.se.pept.transport.ListenerThread;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,25 +7,58 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Server {
-    public static void main(String[] args) throws IOException {
+
+    private int port;
+    private boolean run;
+    private PrintWriter out = null;
+    private ServerSocket serverSocket;
+    private Socket socket;
+
+    public void connect(Controller Controller) {
         int port = 1234;
         boolean run = true;
-        ServerSocket serverSocket;
-        Socket socket;
-
         System.out.println("Server started.");
-        serverSocket = new ServerSocket(port);
 
-        while (true) {
-            System.out.println("Waiting for connections!");
+        try {
+            serverSocket = new ServerSocket(port);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Waiting for connections!");
+
+        try {
             socket = serverSocket.accept();
-
-            // Go
-            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             System.out.println("Client connected!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        // något
+    }
 
-            // close server
+    public void listener(Controller Controller){
+        ListenerThread in = null;
+        try {
+            in = new ListenerThread(new BufferedReader(new InputStreamReader(socket.getInputStream())), Controller);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Thread listen = new Thread(in);
+        listen.start();
+    }
+
+
+    public void chat(String msg){
+        try {
+            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+
+            out.println("Server:" + msg);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        public void close() throws IOException {
             in.close();
             out.close();
             socket.close();
