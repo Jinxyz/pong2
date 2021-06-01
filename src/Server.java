@@ -40,11 +40,12 @@ public class Server {
         ListenerThread in = null;
         try {
             in = new ListenerThread(new BufferedReader(new InputStreamReader(socket.getInputStream())), Controller);
+            Thread listener = new Thread(in);
+            listener.start();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Thread listen = new Thread(in);
-        listen.start();
+        System.out.println("Client failed to communicate");
     }
 
 
