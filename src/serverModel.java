@@ -3,7 +3,7 @@ public class serverModel {
 
     public serverModel(Server server) {
         this.server = server;
-        this.server.connect(controller);
+        //this.server.connect(Controller);
     }
 
     public void sendMessage(String msg){

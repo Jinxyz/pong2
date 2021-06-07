@@ -38,18 +38,18 @@ public class Server {
 
     public void listener(Controller Controller){
         ListenerThread in = null;
-        try {
-            in = new ListenerThread(new BufferedReader(new InputStreamReader(socket.getInputStream())), Controller);
-            Thread listener = new Thread(in);
-            listener.start();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        System.out.println("Client failed to communicate");
+//        try {
+//            in = new ListenerThread(new BufferedReader(new InputStreamReader(socket.getInputStream())), Controller);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        Thread listener2 = new Thread(in);
+//        listener2.start();
+//        System.out.println("Client failed to communicate");
     }
 
 
-    public void chat(String msg){
+    public void chat(String msg) {
         try {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 
@@ -57,13 +57,12 @@ public class Server {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
 
 
         public void close() throws IOException {
-            in.close();
             out.close();
             socket.close();
             System.out.println("Closing down");
         }
     }
-}

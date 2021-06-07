@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class View {
 
@@ -8,4 +9,8 @@ public class View {
     private JTextField clientMessage;
     private JButton sendClient;
     private JButton sendServer;
+
+    public Container getPanel() {
+        return JPanel;
+    }
 }

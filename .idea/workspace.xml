@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="263e786c-dd82-4260-90ac-956d436f408f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planering.md" beforeDir="false" afterPath="$PROJECT_DIR$/planering.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serverModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serverModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +42,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Controller">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="pong2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller" />
       <module name="pong2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Controller" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
       </list>
@@ -157,7 +170,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1621942021644</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Server">
+      <created>1622547652764</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1622547652764</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,45 +188,50 @@
     <MESSAGE value="Graphics" />
     <MESSAGE value="Ingen aning vad som händer" />
     <MESSAGE value="Chatprogramish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chatprogramish" />
+    <MESSAGE value="Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620634285385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620634285385" />
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1622546668547">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1623055643002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622546668547" />
-    <state x="566" y="298" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1621938400289">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623055643002" />
+    <state x="499" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1623053863364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="566" y="298" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1621938400289" />
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1621942020891">
+    <state x="499" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1623053863364" />
+    <state x="566" y="298" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1623055914456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621942020891" />
+    <state x="566" y="298" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1623055914456" />
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1622547652184">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622547652184" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1620637569832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1620637569832" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1621243168739">
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1623057535620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621243168739" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1621243168739">
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623057535620" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1623057535619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621243168739" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1621243168739">
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623057535619" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1623057535619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621243168739" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1621243168739">
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623057535619" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1623057535620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621243168739" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623057535620" />
     <state width="1493" height="205" key="GridCell.Tab.1.bottom" timestamp="1620729075690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -224,14 +248,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="205" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620729075690" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1620729044228">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1623054484301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620729044228" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1621942035390">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1623054484301" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1622547659288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621942035390" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622547659288" />
     <state x="419" y="52" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621939170429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

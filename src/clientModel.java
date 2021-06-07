@@ -3,8 +3,8 @@ public class clientModel {
 
     public clientModel(Client client) {
         this.client = client;
-        this.client.connect();
-        this.client.listener(Controller);
+        //this.client.connect(Controller);
+        //this.client.listener(Controller);
     }
 
     public void sendMessage(String msg) {
